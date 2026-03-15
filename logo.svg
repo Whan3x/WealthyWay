@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 78" fill="none">
+  <defs>
+    <linearGradient id="wg" x1="50" y1="4" x2="50" y2="76" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#F0C840"/>
+      <stop offset="50%"  stop-color="#FF8820"/>
+      <stop offset="100%" stop-color="#D45500"/>
+    </linearGradient>
+  </defs>
+  <!-- Left outer bar -->
+  <polygon points="0,4  14,4  50,76 36,76" fill="url(#wg)"/>
+  <!-- Left inner bar (peak) -->
+  <polygon points="23,4 37,4  50,40 36,40" fill="url(#wg)"/>
+  <!-- Right inner bar (peak) -->
+  <polygon points="63,4 77,4  64,40 50,40" fill="url(#wg)"/>
+  <!-- Right outer bar -->
+  <polygon points="86,4 100,4 64,76 50,76" fill="url(#wg)"/>
+</svg>
